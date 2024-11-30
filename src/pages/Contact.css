@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .small-screen-spacing {
+        padding: 10px;
+        /* Adjust this value as needed */
+        margin: 0 auto;
+        /* Center content if desired */
+    }
+
+    .small-screen-spacing .home-container {
+        margin-bottom: 10px;
+        /* Reduce bottom margin */
+    }
+}

@@ -1,0 +1,139 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    background-color: #f4f4f4;
+    /* Change background as needed */
+    padding: 20px;
+    /* Add padding for smaller screens */
+}
+
+.dynamic-text {
+    font-size: 3rem;
+    /* Big font size */
+    font-weight: bold;
+    color: #333;
+    /* Text color */
+    text-align: center;
+}
+
+.intro {
+    font-size: 100px;
+    /* Large introductory text */
+}
+
+.brief-intro,
+.key-skills {
+    color: black;
+}
+
+.m-font {
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
+
+NavLink {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit the text color */
+    padding: 0;
+    /* Reset padding */
+    margin: 0;
+    /* Reset margin */
+}
+
+.prof_links {
+    font-size: 20px;
+}
+
+.about,
+.expertise,
+.achievements {
+    font-size: 18px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1200px) {
+    .dynamic-text {
+        font-size: 2.5rem;
+        /* Adjust size for large tablets */
+    }
+
+    .intro {
+        font-size: 80px;
+        /* Reduce size for large tablets */
+    }
+}
+
+@media (max-width: 992px) {
+    .dynamic-text {
+        font-size: 2rem;
+        /* Adjust size for medium tablets */
+    }
+
+    .intro {
+        font-size: 60px;
+        /* Reduce size for medium tablets */
+    }
+
+    .prof_links {
+        font-size: 18px;
+        /* Slightly reduce for tablets */
+    }
+            /* Medium devices */
+    .brief-intro {
+        margin-top: 20px;
+        /* Add more space above the description */
+    }
+}
+
+@media (max-width: 768px) {
+    .dynamic-text {
+        font-size: 1.5rem;
+        /* Adjust size for small tablets */
+    }
+
+    .intro {
+        font-size: 40px;
+        /* Reduce size for small tablets */
+    }
+
+    .about,
+    .expertise,
+    .achievements {
+        font-size: 16px;
+        /* Adjust size for better readability */
+    }
+}
+
+@media (max-width: 576px) {
+    .dynamic-text {
+        font-size: 1.2rem;
+        /* Adjust size for mobile */
+    }
+    .intro {
+        font-size: 30px;
+        /* Reduce size for mobile */
+    }
+
+    .brief-intro,
+    .key-skills {
+        font-size: 16px;
+        /* Adjust size for better readability */
+    }
+
+    .prof_links {
+        font-size: 16px;
+        /* Further reduce for mobile */
+    }
+
+    .about,
+    .expertise,
+    .achievements {
+        font-size: 14px;
+        /* Further reduce for mobile */
+    }
+}
